@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated experiment outputs (keep directory placeholder)
+outputs/*
+!outputs/.gitkeep
+outputs_*
+ci_outputs/
+
+# Generated datasets (keep directory placeholder)
+data/*
+!data/.gitkeep

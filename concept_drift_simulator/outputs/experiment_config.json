@@ -1,0 +1,10 @@
+{
+  "n_train": 6000,
+  "n_stream": 20000,
+  "window_size": 1000,
+  "seed": 42,
+  "output_dir": "outputs",
+  "save_stream": true,
+  "make_plots": true,
+  "adaptation": true
+}

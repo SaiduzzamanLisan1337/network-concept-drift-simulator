@@ -1,0 +1,46 @@
+{
+  "baseline_training_seconds": 0.00420805600060703,
+  "stream_rows": 20000,
+  "phase_boundaries": [
+    {
+      "phase": "stable",
+      "start": 0,
+      "end": 4000
+    },
+    {
+      "phase": "covariate_shift",
+      "start": 4000,
+      "end": 8000
+    },
+    {
+      "phase": "concept_drift",
+      "start": 8000,
+      "end": 12000
+    },
+    {
+      "phase": "class_prior_shift",
+      "start": 12000,
+      "end": 16000
+    },
+    {
+      "phase": "gradual_transition",
+      "start": 16000,
+      "end": 20000
+    }
+  ],
+  "models": [
+    "Frozen SGD logistic classifier",
+    "Incrementally updated SGD logistic classifier"
+  ],
+  "feature_names": [
+    "flow_duration_ms",
+    "src_bytes",
+    "dst_bytes",
+    "packet_count",
+    "syn_ratio",
+    "dst_port_diversity",
+    "failed_connection_ratio",
+    "inter_arrival_ms"
+  ],
+  "synthetic_data_only": true
+}
